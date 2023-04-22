@@ -25,14 +25,14 @@ import androidx.wear.compose.material.Text
 import com.edsbsqe.wearos.R
 import com.edsbsqe.wearos.presentation.theme.易档手表社区wearOs版本Theme
 
-class MainActivity : ComponentActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContent {
-            WearApp("Android")
-        }
-    }
-}
+//class MainActivity : ComponentActivity() {
+//    override fun onCreate(savedInstanceState: Bundle?) {
+//        super.onCreate(savedInstanceState)
+//        setContent {
+//            WearApp("Android")
+//        }
+//    }
+//}
 
 @Composable
 fun WearApp(greetingName: String) {

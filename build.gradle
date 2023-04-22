@@ -9,3 +9,17 @@ plugins {
     id 'com.android.library' version '7.4.0' apply false
     id 'org.jetbrains.kotlin.android' version '1.7.0' apply false
 }
+//AppCard(
+//        appImage = {
+//            Image(painter = painterResource(id = R.drawable.ic_message), …)
+//        },
+//        appName = { Text ("Messages") },
+//        time = { Text ("12m" ) },
+//        title = { Text("Kim Green") },
+//        onClick = { … },
+//        body = {
+//            Column(modifier = Modifier.fillMaxWidth()) {
+//                Text("On my way!")
+//            }
+//        },
+//)

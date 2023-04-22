@@ -6,13 +6,48 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/资源中心"
+        android:layout_width="107dp"
+        android:layout_height="39dp"
+        android:text="资源中心"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <Button
+        android:id="@+id/社区帖子"
+        android:layout_width="107dp"
+        android:layout_height="39dp"
+        android:text="社区帖子"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="108dp" />
+
+    <Button
+        android:id="@+id/公告"
+        android:layout_width="107dp"
+        android:layout_height="39dp"
+        android:text="公告"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <Button
+        android:id="@+id/积分签到"
+        android:layout_width="107dp"
+        android:layout_height="39dp"
+        android:text="积分签到"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:srcCompat="@android:drawable/ic_menu_add"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="7dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
